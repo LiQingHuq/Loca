@@ -1,0 +1,6 @@
+127.0.0.1 - - [14/Jul/2018:11:30:38 +0800] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [14/Jul/2018:11:30:39 +0800] "GET /web_name/Create_Table.html HTTP/1.1" 200 2538
+0:0:0:0:0:0:0:1 - - [14/Jul/2018:11:30:39 +0800] "GET /web_name/Create_Table.css HTTP/1.1" 200 94
+0:0:0:0:0:0:0:1 - - [14/Jul/2018:11:51:19 +0800] "GET /web_name/DOM_Windows.html HTTP/1.1" 200 944
+0:0:0:0:0:0:0:1 - - [14/Jul/2018:11:51:31 +0800] "GET /web_name/Friend_Menu.html HTTP/1.1" 200 3219
+0:0:0:0:0:0:0:1 - - [14/Jul/2018:11:51:31 +0800] "GET /web_name/Friend_Menu.css HTTP/1.1" 200 893

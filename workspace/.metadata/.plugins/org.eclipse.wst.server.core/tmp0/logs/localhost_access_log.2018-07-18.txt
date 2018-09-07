@@ -1,0 +1,2 @@
+127.0.0.1 - - [18/Jul/2018:20:14:16 +0800] "GET / HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [18/Jul/2018:20:14:18 +0800] "GET /web_name/WEB-INF/classes/web_name/First_sevlet.java HTTP/1.1" 404 1053

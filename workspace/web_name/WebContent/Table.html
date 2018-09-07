@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表格改色</title>
+    <style type="text/css">
+        table {
+            border: orange 2px solid;
+            width: 500px;
+        }
+
+            table th {
+                border: orange 2px solid;
+                background-color: green;
+            }
+
+            table td {
+                border: orange 2px solid;
+            }
+
+        .one {
+            background-color: aqua;
+        }
+
+        .two {
+            background-color: gray;
+        }
+
+        .over {
+            background-color: purple;
+        }
+
+
+        th a:LINK, th a:VISITED {
+            text-decoration: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <script type="text/javascript">
+        function trcolor() {
+       var flag = true;
+	 var name;
+	 var otadnode=document.getElementById("info");
+	 var otrnodes=otadnode.rows;
+
+	 for(var x=1; x<otrnodes.length;x++){
+
+		 if(x%2==1){
+		  otrnodes[x].className="one";
+		 }
+		  else {
+		   otrnodes[x].className="two";
+		  }
+
+		  otrnodes[x].onmouseover=function(){
+			  name=this.className;
+			  this.className="over";
+		  }
+           otrnodes[x].onmouseout=function(){
+			  this.className=name;
+		  }
+	 }
+
+ }
+
+ onload=function(){
+	 trcolor();
+ }
+ /*
+
+ function over(node){
+	 name=node.className;
+	 node.className="over";
+ }
+
+ function out(node){
+	 node.className=name;
+ }
+ */
+
+ function sort(){
+	 //思路：1,要进行排序就需要数组，没有数组就建立一个用于装数据的容器——数组。
+	 //     2,将对象装进数组，对学号进行比较，再将排序后的数组读取进table
+	 var oTabNode=document.getElementById("info");
+	 var oTrNodes = oTabNode.rows;
+	 var arr = [];
+	 for (var m = 1; m < oTrNodes.length; m++) {
+	     arr[m-1] = oTrNodes[m];
+	 }
+	 myswap(arr);
+	 if (flag) {
+	     for (var t = 0; t < arr.length; t++) {
+	         arr[t].parentNode.appendChild(arr[t]);
+	     }
+	 }
+	 else {
+	     for (var t = arr.length-1; t >0; t--) {
+	         arr[t].parentNode.appendChild(arr[t]);
+	     }
+	 }
+	 
+
+ }
+ function myswap(arr) {
+     for (var j = 0; j < arr.length; j++) {
+         for (var y = j + 1; y < arr.length; y++) {
+             if (parseInt(arr[j].cells[1].innerHTML) < parseInt(arr[y].cells[1].innerHTML)) {
+                 var temp = arr[j];
+                 arr[j] = arr[y];
+                 arr[y] = temp;
+             }
+         }
+     }
+ }
+    </script>
+    <table id="info">
+        <tr>
+            <th>姓名</th>
+            <th><a href="javascript:void(0)" onclick="sort()">学号</a></th>
+            <th>密码</th>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016123252</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2023612052</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2321612052</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120524</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120432</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2021112052</td>
+            <td>705725</td>
+        </tr>
+
+
+        <tr>
+            <td>李青华</td>
+            <td>3231612059</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2023161205</td>
+            <td>705725</td>
+        </tr>
+
+
+        <tr>
+            <td>李青华</td>
+            <td>2021321205</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2456776164</td>
+            <td>705725</td>
+        </tr>
+
+
+        <tr>
+            <td>李青华</td>
+            <td>2342052474</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120342</td>
+            <td>705725</td>
+        </tr>
+
+
+        <tr>
+            <td>李青华</td>
+            <td>2016126704</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120799</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120524</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2046467867</td>
+            <td>705725</td>
+        </tr>
+
+
+        <tr>
+            <td>李青华</td>
+            <td>2016152474</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016129564</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120574</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120564</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120474</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120564</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120474</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120564</td>
+            <td>705725</td>
+        </tr>
+
+        <tr>
+            <td>李青华</td>
+            <td>2016120574</td>
+            <td>701725</td>
+        </tr>
+
+        <tr>
+            <td>爱魏晨</td>
+            <td>2016120564</td>
+            <td>705725</td>
+        </tr>
+
+    </table>
+</body>
+</html>

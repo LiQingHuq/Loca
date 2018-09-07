@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="E:\英雄时刻" version="1.8.0_11">
+<bootpath>
+<entry path="E:\英雄时刻\jre\lib\resources.jar"/>
+<entry path="E:\英雄时刻\jre\lib\rt.jar"/>
+<entry path="E:\英雄时刻\jre\lib\sunrsasign.jar"/>
+<entry path="E:\英雄时刻\jre\lib\jsse.jar"/>
+<entry path="E:\英雄时刻\jre\lib\jce.jar"/>
+<entry path="E:\英雄时刻\jre\lib\charsets.jar"/>
+<entry path="E:\英雄时刻\jre\lib\jfr.jar"/>
+<entry path="E:\英雄时刻\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\英雄时刻\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\英雄时刻\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\百度云" version="1.8.0_11">
+<bootpath>
+<entry path="E:\百度云\jre\lib\resources.jar"/>
+<entry path="E:\百度云\jre\lib\rt.jar"/>
+<entry path="E:\百度云\jre\lib\sunrsasign.jar"/>
+<entry path="E:\百度云\jre\lib\jsse.jar"/>
+<entry path="E:\百度云\jre\lib\jce.jar"/>
+<entry path="E:\百度云\jre\lib\charsets.jar"/>
+<entry path="E:\百度云\jre\lib\jfr.jar"/>
+<entry path="E:\百度云\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\百度云\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\百度云\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)" version="1.8.0_11">
+<bootpath>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\resources.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\rt.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\sunrsasign.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\jsse.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\jce.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\charsets.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\jfr.jar"/>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\BaiduNetdiskDownload\win10\Eclipse(mars，中文版带JRE)\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45" version="1.7.0_45">
+<bootpath>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\resources.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\rt.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jsse.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jce.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\charsets.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\jfr.jar"/>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Myeclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\百度云\jre" version="1.8.0_11">
+<bootpath>
+<entry path="D:\百度云\jre\lib\resources.jar"/>
+<entry path="D:\百度云\jre\lib\rt.jar"/>
+<entry path="D:\百度云\jre\lib\sunrsasign.jar"/>
+<entry path="D:\百度云\jre\lib\jsse.jar"/>
+<entry path="D:\百度云\jre\lib\jce.jar"/>
+<entry path="D:\百度云\jre\lib\charsets.jar"/>
+<entry path="D:\百度云\jre\lib\jfr.jar"/>
+<entry path="D:\百度云\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\百度云\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\百度云\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\u盘\Eclipse(mars，中文版带JRE)\jre" version="1.8.0_11">
+<bootpath>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\resources.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\rt.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\sunrsasign.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jsse.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jce.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\charsets.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jfr.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\u盘\Eclipse(mars，中文版带JRE)" version="1.8.0_11">
+<bootpath>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\resources.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\rt.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\sunrsasign.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jsse.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jce.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\charsets.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jfr.jar"/>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\百度云" version="1.8.0_11">
+<bootpath>
+<entry path="D:\百度云\jre\lib\resources.jar"/>
+<entry path="D:\百度云\jre\lib\rt.jar"/>
+<entry path="D:\百度云\jre\lib\sunrsasign.jar"/>
+<entry path="D:\百度云\jre\lib\jsse.jar"/>
+<entry path="D:\百度云\jre\lib\jce.jar"/>
+<entry path="D:\百度云\jre\lib\charsets.jar"/>
+<entry path="D:\百度云\jre\lib\jfr.jar"/>
+<entry path="D:\百度云\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\百度云\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\百度云\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<exam>
+    <student examid="222" idcard="111">
+         <name>张三</name>
+         <location>四川</location>
+         <grade>78</grade>
+    </student>
+     <student examid="444" idcard="333">
+         <name>李四</name>
+         <location>大连</location>
+         <grade>96</grade>
+     </student>    
+     <studnet examid="111" idcard="123456">
+         <name>李青华</name>
+         <location>北京</location>
+         <grade>50</grade>
+     </studnet>
+     <studnet examid="963" idcard="123">
+         <name>李华</name>
+         <location>北京</location>
+         <grade>66</grade>
+     </studnet>
+</exam>

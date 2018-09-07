@@ -1,0 +1,150 @@
+package atm_1;
+
+import java.util.Scanner;
+
+
+
+
+public class ATM {
+	private static int password=666666;//正确密码进入atm需要密码验证三
+	private static boolean ismain=true;//主界面一直循环，
+	private static boolean ischeck=true;//密码界面一直循环。
+	private static int rmb=10000; 
+	private static int dollar=1000;
+		
+	
+	public static int enterWord(String str){ //用户输入
+		System.out.println(str);
+		Scanner sc=new Scanner(System.in);
+		return sc.nextInt();
+	}//控制台接受密码
+	/**
+	 * 登录系统
+	 */
+	public static void check(){
+		int chance=3;//三次机会
+		while(ischeck)//循环表示，如果在三次机会内输入正确密码进入主界面
+		{
+          		int word=enterWord("please enter password:");
+          		if(word==password)
+          		{
+          			zmain();//输入正确
+          		}
+          		else{
+          			//输入错误
+          		chance--;
+          		System.out.println("你还有"+chance+"次机会");
+          		if(chance==0)
+          			ischeck=false;
+          			System.out.println("三次机会用完，请到柜台人工办理");
+          		}
+		}       
+	}
+	/**
+	 * 余额查询操作
+	 */
+	public static void chaXun() {//查询余额
+		boolean ischaXun=true;
+		while(ischaXun){
+		System.out.println("选择查询的币种");
+		System.out.println("1,人民币");
+		System.out.println("2,美元");
+		int is=enterWord("输你的选择");
+		switch (is) {
+		case 1:
+			System.out.println("人民币账户余额为"+rmb+"");
+			break;
+		case 2:
+			System.out.println("美元账户余额为"+dollar+"");
+			break;
+		}
+		ischaXun=goOn("查询");
+	 }
+	}
+
+	/**
+	 * 取款操作
+	 */
+	public static void quKuan() {//取款操作
+		boolean isquKuan=true;
+	   while(isquKuan){
+		System.out.println("选择取款的币种");//判断取什么种类
+		System.out.println("1,人民币");
+		System.out.println("2,美元");
+		int s=enterWord("输你的选择");
+		switch (s) {
+		case 1:
+			int m=enterWord("输你的取款人民币金额");//输入取款金额，判断取款的数与余额的关系，同时满足为一百的整数。
+			if(m>rmb)
+				System.out.println("取款金额超过余额，重新输入！");
+			else if(m%100!=0)
+				System.out.println("请输入一百的整数，请重新输入！");
+			else
+			   rmb-=m;
+			System.out.println("人民币还剩下"+rmb+"元");
+			break;
+
+		case 2:
+			int dm=enterWord("输你的取款金额");
+			if(dm>dollar)
+				System.out.println("取款金额超过余额，重新输入！");
+			else if(dm%100!=0)
+				System.out.println("请输入一百的整数，请重新输入！");
+			else
+			   dollar-=dm;
+			System.out.println("美元还剩下"+dollar+"元");
+			break;
+		}
+		isquKuan=goOn("取款");
+	   }
+	
+	}
+	/**
+	 * @param 继续操作
+	 * @return
+	 */
+	public static boolean goOn(String str) {//封装函数
+		boolean isgoOn=true;
+		System.out.println("是否继续"+str);//取款操作完选择接下来的操作
+	    System.out.println("1,继续");
+	    System.out.println("2,返回主界面");
+	    int c=enterWord("输入你的选择");
+	  if(c==2){
+	  isgoOn=false;
+	  }
+	  return isgoOn;
+	}
+	
+	/**主界面操作
+	 * @author Administrator
+	 *
+	 */
+	public static void zmain() {//密码正确，进入主界面
+		while(ismain){//用于死循环使界面一直出现，
+		System.out.println("1,查询余额");
+		System.out.println("2,取款");
+		System.out.println("3，退出");
+		int i=enterWord("输入你选择的数字");
+		switch (i){
+		case 1: 
+			chaXun();
+			break;
+		case 2: 
+			quKuan();
+			break;
+		case 3:
+			ischeck=false;
+		    ismain=false;
+		    System.out.println("欢迎使用，再见！！");
+			break;
+		}
+		}
+	}
+	/**主函数
+	 * @author Administrator
+	 *
+	 */
+public static void main(String[] args){
+                         check();
+}
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM节点操作</title>
+<style type="text/css">
+div{
+
+   border:red 10px solid;
+   width:200px;
+   padding-bottom:30px;padding-left:30px;padding-right:30px;padding-top:30px;
+   margin-bottom: 10px;margin-left: 10px;margin-right: 10px;margin-top: 10px;
+   }
+   
+   #id_1{
+     background-color: gray;
+   }
+   #id_2{
+     background-color: blue;
+   }
+   #id_3{
+     background-color: green;
+   }
+   #id_4{
+     background-color: yellow;
+   }
+   #id_5{
+     background-color: orange;
+   }
+</style>
+</head>
+<body>
+
+<input type="button" value="添加节点" onclick="add_node2()"/>
+<input type="button" value="修改节点" onclick="updata_node()"/>
+<input type="button" value="删除节点" onclick="delete_node()"/>
+
+<hr/>
+
+ <a href="NewFile.html" target="right">web——1</a>
+ <a href="Yanshi.html" target="right">web——2</a>
+ 
+ 
+  <div id="id_1">
+  
+  </div>
+  
+  <div id="id_2">
+  beautiful_country
+  </div>
+  
+  <div id="id_3">
+  I_love_you_my_country
+  </div>
+  
+  <div id="id_4">
+  加油奋斗
+  </div>
+  
+  <div id="id_5">
+  你好世界
+  </div>
+  <input type="button" value="测试" onclick="delete_node()"/>
+  
+  <script type="text/javascript">
+    //添加文本
+   function add_node(){
+    var oNode=document.createTextNode("这是一个新的类容");
+    var mNode=document.getElementById("id_1");
+    mNode.appendChild(oNode);
+    }
+  
+    //添加button元素标签
+    function add_node1(){
+    var obuNode=document.createElement("input");
+    var mbuNode=document.getElementById("id_1");
+    
+    obuNode.type="button";
+    obuNode.value="添加按钮元素";
+    obuNode.onclick="add_node()";
+
+    mbuNode.appendChild(obuNode);
+    }
+    
+    
+    //添加text元素标签
+    function add_node2(){
+    	var oinput=document.createElement("input");
+    	var otext=document.getElementById("id_1");
+    	 oinput.type="text";
+    	 otext.appendChild(oinput);
+    }
+    //添加text元素标签,建议
+    function add_node3(){
+    	
+    	var otext1=document.getElementById("id_1");
+ 
+          otext1.innerHTML="<input type="+"text"+" value="+"添加按钮！"+"/>";
+    }
+    
+    
+    //修改节点
+    function updata_node(){
+    	var up=document.getElementById("id_3");
+    	var upd=document.getElementById("id_5");
+    	up.parentNode.replaceChild(upd, up);
+    }
+    
+    //删除节点
+    function delete_node(){
+    	var del=document.getElementById("id_1");
+    	del.parentNode.removeChild(del);
+    }
+    
+  </script>
+</body>
+</html>

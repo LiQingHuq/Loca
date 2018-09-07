@@ -1,0 +1,55 @@
+java.runtime.name:Java(TM) SE Runtime Environment
+sun.boot.library.path:D:\u盘\Eclipse(mars，中文版带JRE)\jre\bin
+java.vm.version:25.11-b03
+java.vm.vendor:Oracle Corporation
+java.vendor.url:http://java.oracle.com/
+path.separator:;
+java.vm.name:Java HotSpot(TM) Client VM
+file.encoding.pkg:sun.io
+user.script:
+user.country:CN
+sun.java.launcher:SUN_STANDARD
+sun.os.patch.level:Service Pack 1
+java.vm.specification.name:Java Virtual Machine Specification
+user.dir:D:\workspace\list
+java.runtime.version:1.8.0_11-b12
+java.awt.graphicsenv:sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs:D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\endorsed
+os.arch:x86
+java.io.tmpdir:C:\Users\ADMINI~1\AppData\Local\Temp\
+line.separator:
+
+java.vm.specification.vendor:Oracle Corporation
+user.variant:
+os.name:Windows 7
+sun.jnu.encoding:GBK
+java.library.path:D:\u盘\Eclipse(mars，中文版带JRE)\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/BaiduNetdiskDownload/Eclipse(mars，中文版带JRE)/jre/bin/client;D:/BaiduNetdiskDownload/Eclipse(mars，中文版带JRE)/jre/bin;D:/BaiduNetdiskDownload/Eclipse(mars，中文版带JRE)/jre/lib/i386;D:\python_App\Scripts\;D:\python_App\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Java\jdk1.8.0_91\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\BaiduNetdiskDownload\Eclipse(mars，中文版带JRE);;.
+java.specification.name:Java Platform API Specification
+java.class.version:52.0
+sun.management.compiler:HotSpot Client Compiler
+os.version:6.1
+user.home:C:\Users\Administrator
+user.timezone:
+java.awt.printerjob:sun.awt.windows.WPrinterJob
+file.encoding:GBK
+java.specification.version:1.8
+user.name:Administrator
+java.class.path:D:\workspace\list\bin
+java.vm.specification.version:1.8
+sun.arch.data.model:32
+java.home:D:\u盘\Eclipse(mars，中文版带JRE)\jre
+sun.java.command:system.Start
+java.specification.vendor:Oracle Corporation
+user.language:zh
+awt.toolkit:sun.awt.windows.WToolkit
+java.vm.info:mixed mode
+java.version:1.8.0_11
+java.ext.dirs:D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+sun.boot.class.path:D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\resources.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\rt.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\sunrsasign.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jsse.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jce.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\charsets.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\lib\jfr.jar;D:\u盘\Eclipse(mars，中文版带JRE)\jre\classes
+java.vendor:Oracle Corporation
+file.separator:\
+java.vendor.url.bug:http://bugreport.sun.com/bugreport/
+sun.cpu.endian:little
+sun.io.unicode.encoding:UnicodeLittle
+sun.desktop:windows
+sun.cpu.isalist:pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“web_name/WebContent/dom.css”重命名为“nodeDom.css”" description="重命名资源“dom.css”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/dom.css" name="nodeDom.css" stamp="1528268574881" updateReferences="true"/>&#x0A;<refactoring comment="将资源“web_name/WebContent/Demo.css”重命名为“Test.css”" description="重命名资源“Demo.css”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Demo.css" name="Test.css" stamp="1528268604345" updateReferences="true"/>
+</session>

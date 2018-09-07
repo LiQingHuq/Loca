@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>windows中的对象</title>
+</head>
+<body>
+<script type="text/javascript">
+var timeid;
+function demo() {
+	var name=navigator.appName;
+	var code=navigator.appCodeName;
+	alert(code);
+	alert(name);
+}
+function demo2(){
+	var url=location.href;
+	var p=location.protocol;    
+     alert(p);
+}
+function demo3(){
+	var b="你真的确定取消";
+	var a=confirm(b);
+	alert("b="+a);
+	 timeid=setInterval("alert('nihao')", 3000);	
+}
+function stopTime(){
+	clearInterval(timeid);
+}
+
+function adv(){
+	windows.open("a.html","_blank","height=500,width=200,toolbar=yes,status=yes,,menuvar=yes,location=yes");
+}
+
+}
+</script>
+<input type="button" name="text" value="演示windows当中的对象" onclick="demo3()">
+<input type="button" name="text" value="停止" onclick="stopTime()">
+<input type="button" name="text" value="广告" onclick="adv()">
+</body>
+</html>

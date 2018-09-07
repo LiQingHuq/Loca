@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将编译单元“assa.as.java”重命名为“TimeFrame.java”&#x0D;&#x0A;－ 原始项目：“assa”&#x0D;&#x0A;－ 原始元素：“assa.as.java”&#x0D;&#x0A;－ 重命名的元素：“assa.TimeFrame.java”" description="重命名编译单元“as.java”" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;assa{as.java" name="TimeFrame.java" references="false" stamp="1527501853669" version="1.0"/>
+</session>

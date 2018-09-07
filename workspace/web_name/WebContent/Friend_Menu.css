@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+ table ul {
+            list-style: none;
+            display: none;
+            background-color: green;
+            padding:0px;
+            margin: 0px;
+        }
+        table {
+            border: #8080ff 2px solid;
+            width: 100px;
+        }
+
+            table td {
+                border: #8080ff 2px solid;
+            }
+
+        table td a:link, table td a:visited {
+                    color: #8080ff;
+                    text-decoration: none;
+                    background-color: burlywood;
+                }
+
+        table td a:HOVER {
+                    color:aqua;
+                }
+
+     table td a {
+                width:200px;
+                color:red;
+                text-align: center;
+     }
+
+        .close {
+            display: none;
+        }
+
+        .open {
+            display: block;
+        }

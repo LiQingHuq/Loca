@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+table{
+	border: green 2px solid;
+}
+table  td{
+	border: green 2px solid;
+}
+table  th{
+	border: green 2px solid;
+}
+.one{
+	background-color: blue;
+}
+.two{
+	background-color: yellow;
+}
+.over{
+   background-color:green;	
+}

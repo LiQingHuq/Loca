@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring accessors="true" comment="Delete element from 项目“web_name”&#x0D;&#x0A;－ 原始项目：“web_name”&#x0D;&#x0A;－ 原始元素：“book.dtd”" description="删除元素" element1="src/web_name/book.dtd" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1526115788755" subPackages="false" version="1.0"/>&#x0A;<refactoring accessors="true" comment="Delete element from 项目“web_name”&#x0D;&#x0A;－ 原始项目：“web_name”&#x0D;&#x0A;－ 原始元素：“xml.xml”" description="删除元素" element1="src/web_name/xml.xml" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1526115792844" subPackages="false" version="1.0"/>
+</session>

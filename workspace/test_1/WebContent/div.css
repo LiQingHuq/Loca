@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+div{
+	color:blue;
+}
+table,table td{
+	border: #0000ff double 1px;
+	width: 400px;
+}

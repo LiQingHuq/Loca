@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exam>
+    <student>
+         <name>张三</name>
+         <location>四川</location>
+         <grade>78</grade>
+    <id>1</id></student>
+     <student >
+         <name>李四</name>
+         <location>大连</location>
+         <grade>96</grade>
+     </student>    
+     <studnet>
+         <name>李青华</name>
+         <location>北京</location>
+         <grade>50</grade>
+     </studnet>
+     <studnet >
+         <name>李华</name>
+         <location>北京</location>
+         <grade>66</grade>
+     </studnet>
+</exam>

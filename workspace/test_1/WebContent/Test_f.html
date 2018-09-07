@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="Test_f.js"></script>
+</head>
+<body>
+ <script type="text/javascript">
+var str="abcde";
+ document.write("??"+str.toCharArray());
+ </script>
+
+<script type="text/javascript">
+var date=new Date();
+document.write(date.toLocaleString()+"</br>");
+document.write(date.toLocaleDateString()+"</br>");
+document.write(date.toLocaleTimeString()+"</br>");
+
+ 
+var year=date.getFullYear();
+var mon=date.getMonth()+1;
+var day=date.getDate();
+var week=date.getDay();
+document.write(year+"年"+mon+"月"+day+"日&nbsp;"+"星期"+week);
+</script>
+<script type="text/javascript">
+
+function Persion(name,age){
+	this.name=name;
+	this.age=age;
+	this.setName=function(name){
+		this.name=name;
+	}
+	this.getName=function(){
+		return this.name;
+	}	
+}
+var p={
+		"xiaoqiang":1,		
+    }
+    
+alert(p.name+p.["age"]);
+
+
+
+var omap=function(){
+	name:"xiaoqiang"
+}
+alert(omap.name)
+    </script>
+</body>
+</html>

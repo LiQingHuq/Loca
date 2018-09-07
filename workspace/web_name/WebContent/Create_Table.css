@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+table{
+	border: orange 5px solid;
+}
+td{
+	border: #00ffff 1px solid;
+} 

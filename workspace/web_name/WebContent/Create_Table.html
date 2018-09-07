@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>创建表格</title>
+<link href="Create_Table.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<script type="text/javascript">
+//添加表格
+function newtbale(){
+	
+	var oTabNode=document.createElement("table");
+	oTabNode.setAttribute("id","t1");
+	var oRowVal=parseInt(document.getElementsByName("row")[0].value);
+	var oColVal=parseInt(document.getElementsByName("col")[0].value);
+	
+	for (var x=1;x<=oRowVal;x++){
+	 var oTrNode=oTabNode.insertRow();
+	  for(var i=1;i<=oColVal;i++){
+	  var oTdNode=oTrNode.insertCell();
+	   oTdNode.innerHTML=x+"——"+i;
+	
+	 }	
+	}
+	document.getElementsByTagName("div")[0].appendChild(oTabNode);
+	document.getElementsByName("fs")[0].disabled=false;
+}
+
+
+
+ function oncreate(){
+	 
+	 var oTabNode=document.createElement("table");
+	 var oTbNode=document.createElement("tbody");
+	 var oTrNode=document.createElement("tr");
+	 var oTdNode=document.createElement("td");
+	 oTdNode.innerHTML="这是我做的表格";
+	 
+	 
+	 
+	 oTrNode.appendChild(oTdNode);
+	 oTbNode.appendChild(oTrNode);//大小写毁所有
+	 oTabNode.appendChild(oTbNode);
+	 	 
+	 document.getElementsByTagName("div")[0].appendChild(oTabNode);
+ }
+ 
+ 
+ //删除行
+   function delRow(){
+	 var oTabNode=document.getElementById("t1");
+	 if(!oTabNode){
+		 alert("表格不存在！");
+	 return;
+	 }
+	 var delRowVal=parseInt(document.getElementsByName("delrow")[0].value);
+	 if(delRowVal>=1 && delRowVal<=oTabNode.rows.length){
+		 oTabNode.deleteRow(delRowVal-1);
+	 }
+	 else{
+		 alert("delete不存在");
+	 }
+		 
+ }
+ 
+ 
+   //删除行
+   function delCol(){
+	 var oTabNode=document.getElementById("t1");
+	 if(!oTabNode){
+		 alert("表格不存在！");
+	 return;
+	 }
+	  var delColVal=document.getElementsByName(elementName)
+	  if(delColVal>=1 && delColVal<=oTabNode.rows[0].cells.length){
+		  for(var x=0;x<oTabNode.rows.cells.length;x++)
+			  oTabNode.rows[x].deleteCell(delColVal-1);
+	 }
+	 else{
+		 alert("delete不存在");
+	 }
+	 
+   }
+	 
+ 
+</script>
+行:<input type="text" name="row"/>列:<input type="text" name="col"/>
+  
+  <input type="button" value="创建表格"  name="fs" onclick="newtbale()"/>
+  <br/>
+  <input type="text" name="delrow"/> <input type="button" value="删除行"  name="bdelrow" onclick="delRow()"/>
+  <br/>
+  <input type="text" name="delcol"/> <input type="button" value="删除列"  name="bdelcol" onclick="delCol()"/>
+  <hr/>
+  <div>
+  </div>
+</body>
+</html>
