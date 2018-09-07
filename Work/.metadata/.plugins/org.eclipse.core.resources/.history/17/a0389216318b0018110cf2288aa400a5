@@ -1,0 +1,9 @@
+package it.cast.n;
+
+public class N {
+
+	public N() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

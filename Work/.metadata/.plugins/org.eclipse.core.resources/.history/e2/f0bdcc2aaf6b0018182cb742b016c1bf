@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>问卷调查——性格测试</title>
+<link href="Email.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<!-- 要求在是否选择参与调查时隐藏调查内容，知道选择为是 -->
+  <div >
+  您要参与问卷调查吗:
+   <input type="radio" name="wenjuan " value="yes" />是
+   <input type="radio" name="wenjuan " value="no" />否
+   </div>
+   <div id="a">
+     问卷调查内容；<br/>
+    你的姓名:<input type="text"><br/>
+    你就读学校:<input type="text"><br/>
+    你一个月消费情况:<input type="radio" value="2000" name="xiaofei"/>2000元<input type="radio" value="1000" name="xiaofei"/>1000元<input type="radio" value="1500" name="xiaofei"/>1500元<br/>
+    你能承受菜品价格:<input type="radio" value="80" name="caipin"/>80元<input type="radio" value="50" name="caipin"/>50元<input type="radio" value="30" name="caipin">30元<br/>
+    你是否喜欢聚餐:<input type="radio" name="jucan"/>是<input type="radio"name="jucan"/>否<br/>
+    你的口味：<input type="radio" name="kouwei"/>微辣<input type="radio"  name="kouwei"/>中辣<input type="radio" name="kouwei"/>特辣<br/>   <br/>
+   </div>
+   
+   <hr/>
+   <!-- 结果隐藏要求点击选项，把value的值加起来最后把合适的选项显示出来 -->
+   您要参与性格测试吗:
+   <div>
+   <h3>第一题</h3>
+  <span>你喜欢什么样的水果:</span> 
+   <ul>
+   <li><input type="radio" name="no1" value="1" />葡萄</li>
+   <li><input type="radio" name="no1" value="2" />香蕉</li>
+   <li><input type="radio" name="no1" value="3" />苹果</li>
+   <li><input type="radio" name="no1" value="4" />桃子</li>   
+   <li><input type="radio" name="no1" value="5" />西瓜</li>
+   <li><input type="radio" name="no1" value="6" />杨梅</li>
+   </ul>
+   
+  
+   <h3>第二题</h3>
+  <span>你喜欢什么样的水果:</span> 
+   <ul>
+   <li><input type="radio" name="no2" value="2" />葡萄</li>
+   <li><input type="radio" name="no2" value="5" />香蕉</li>
+   <li><input type="radio" name="no2" value="7" />苹果</li>
+   <li><input type="radio" name="no2" value="5" />桃子</li>
+   <li><input type="radio" name="no2" value="9" />西瓜</li>
+   <li><input type="radio" name="no2" value="8" />杨梅</li>
+   </ul>
+   </div>
+   
+   
+   
+   <input type="button" value="查看得分情况"/><br/>
+   <div>
+    <div id="res_1">1-3分，性格极度分裂，建议寻求医生帮助。。。。。</div> 
+    <div id="res_2">4—5分，性格重度分裂，建议。。。。。。</div>
+    <div id="res_3">6—8分，性格中度分裂建议。。。</div>
+    <div id="res_4">9—10分，性格轻度分裂，建议。。。。。。。。。，</div>
+     <div id="res_5">>10分，性格没有分裂，建议。。。。。。。。。，</div>
+   </div>
+</body>
+</html>

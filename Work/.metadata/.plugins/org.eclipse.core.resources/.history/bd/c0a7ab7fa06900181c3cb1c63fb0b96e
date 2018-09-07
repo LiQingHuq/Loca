@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+   function getSum(){
+	   //思路：计算checked为true的value值的和
+	   //得到节点对象，判断为true时把他们的值加起来的和。
+	   
+	   var sum=0;
+	   
+	   var ocNodes=document.getElementsByName("first");
+	   for(var x=0;x<ocNodes.length;x++){
+		   if(ocNodes[x].checked){
+			   sum+=parseInt(ocNodes[x].value);
+		   }
+	   }
+	   var os=document.getElementById("sp");
+	   var name=sum+"元";
+	   os.innerHTML=name.fontcolor("red");
+   }
+   
+   
+    function getAll(node){
+    	//思路:把所有的checked改为true,遍历所有节点，把checked属性改为true'
+    	var ocNodes=document.getElementsByName("first");
+    	 for(var x=0;x<ocNodes.length;x++){
+    	     ocNodes[x].checked=node.checked;
+    	 }
+    }
+</script>
+<input type="checkbox" name="all" onclick="getAll(this)"/>全选<br/>
+<input type="checkbox" name="first" value="5000"/>机械师:5000<br/>
+<input type="checkbox" name="first" value="69760"/>外星人:69760<br/>
+<input type="checkbox" name="first" value="5000"/>未来人类:5000<br/>
+<input type="checkbox" name="first" value="5020"/>微软:5020<br/>
+<input type="checkbox" name="first" value="5000"/>甲骨文:5000<br/>
+<input type="checkbox" name="first" value="5000"/>苹果:5000<br/>
+<input type="checkbox" name="first" value="50000"/>戴尔:50000<br/>
+<input type="checkbox" name="first" value="50000"/>暗夜精灵:50000<br/>
+<input type="checkbox" name="first" value="50040"/>弘基:50040<br/>
+<input type="checkbox" name="first" value="89400"/>华为:89400<br/>
+<input type="button" name="btn" value="总金额:" onclick="getSum()"/><span id="sp"></span>
+</body>
+</html>

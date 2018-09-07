@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>邮件列表</title>
+<link href="Email.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<!-- 要求，1，对table中的单行双行进行颜色变化，还有亮色。
+  2，  对全选框实现
+  3，对全选按钮，反选按钮，取消全选按钮，删除全选进行操作
+ -->
+ <script type="text/javascript">
+function  checkcolor(){
+	var oTabNode=document.getElementById("tb")
+	var name;
+	var oTrNodes=oTabNode.rows;
+	for(var i=1;i<oTrNodes.length;i++){
+		if(i%2==1){ 
+			oTrNodes[i].className="one";
+		}
+		else{
+			oTrNodes[i].className="two";
+		}
+
+		oTrNodes[i].onmouseover=function(){
+			  name=this.className;
+			  this.className="over";
+		  }
+		oTrNodes[i].onmouseout=function(){
+			  this.className=name;
+		  }
+	 
+	}
+}
+
+onload=function (){
+	checkcolor();
+}
+
+function checkAll(node){
+
+	var oTrNodes=document.getElementsByName("mail");
+	for(var x=0;x<oTrNodes.length;x++){
+		oTrNodes[x].checked=node.checked;
+	}
+}
+
+function checkAllByBtn(num){
+	var oTrNodes=document.getElementsByName("mail");
+	for(var x=0;x<oTrNodes.length;x++){
+		if(num>1){
+			oTrNodes[x].checked=!oTrNodes[x].checked;
+		}
+		else{
+			oTrNodes[x].checked=num;
+		}
+	}
+}
+
+
+function delAllByBtn(num){
+	var oTrNodes=document.getElementsByName("mail");
+	for(var x=0;x<oTrNodes.length;){
+		if(oTrNodes[x].checked)
+			var ono=oTrNodes[x].parentNode.parentNode;
+		 ono.perentNode.removechild(ono);
+		  x--
+	}	
+}
+</script>
+<table id="tb">
+  <tr>
+      <th>
+       <input type="checkbox" name="all" onclick="checkAll(this)"/>全选
+     </th>
+     <th>发件人</th>
+     <th>邮件名称</th>
+     <th>邮件内容</th>
+  </tr>
+  
+  <tr>
+    <td><input type="checkbox" name="mail"/></td>
+    <td>张三</td>
+    <td>邮件一</td>
+    <td>内容一</td>
+  </tr>
+  
+  
+  <tr>
+    <td><input type="checkbox"  name="mail"/></td>
+    <td>李四</td>
+    <td>邮件二</td>
+    <td>内容二</td>
+  </tr>
+  
+  
+  <tr>
+    <td><input type="checkbox" name="mail"/></td>
+    <td>王五</td>
+    <td>邮件三</td>
+    <td>内容三</td>
+  </tr>
+  
+  
+  <tr>
+    <td><input type="checkbox" name="mail"/></td>
+    <td>小强</td>
+    <td>邮件六</td>
+    <td>内容六</td>
+  </tr>
+  
+  
+  <tr>
+    <td><input type="checkbox"  name="mail"/></td>
+    <td>小明</td>
+    <td>邮件七</td>
+    <td>内容七</td>
+  </tr>
+  <tr>
+    <td colspan="4">
+    <input type="button" value="全选"  onclick="checkAllByBtn(1)"/>
+    <input type="button"   value="取消全选"  onclick="checkAllByBtn(0)"/>
+    <input type="button" value="反选"   onclick="checkAllByBtn(2)"/>
+    <input type="button"  value="删除所选项"  onclick="delAllByBtn()"/></td>
+    </tr>
+</table>
+    
+    
+
+</body>
+</html>

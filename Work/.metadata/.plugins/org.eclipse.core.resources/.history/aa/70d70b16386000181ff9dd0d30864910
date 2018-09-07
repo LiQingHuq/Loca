@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+ <form>
+    <table weight=500;borede=1>
+      <tr>
+      <td>表单提交</td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td>用户:</td>
+      <td><input type="text" name="用户"></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+      
+      <tr>
+      <td></td>
+      <td></td>
+      </tr>
+    </table>
+ </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>好友菜单</title>
+</head>
+<body>
+ <table>
+    <tr>
+     <td>
+        <a href="">一个好友</a>
+        <ul>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td>
+        <a href="">一个好友</a>
+        <ul>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+        </ul>
+     </td>
+    </tr>
+    
+    
+    
+    <tr>
+     <td>
+        <a href="">一个好友</a>
+        <ul>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td>
+        <a href="">一个好友</a>
+        <ul>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td>
+        <a href="">一个好友</a>
+        <ul>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+        </ul>
+     </td>
+    </tr>
+ </table>
+</body>
+</html>

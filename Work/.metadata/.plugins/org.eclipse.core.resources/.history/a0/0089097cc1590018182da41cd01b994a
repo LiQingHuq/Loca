@@ -1,0 +1,9 @@
+package otherIO;
+
+public class File_Merge {
+
+	public File_Merge() {
+		// TODO 自动生成的构造函数存根
+	}
+
+}

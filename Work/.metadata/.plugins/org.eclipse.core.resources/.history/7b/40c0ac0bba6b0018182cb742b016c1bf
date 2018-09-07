@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表单校验</title>
+</head>
+<body>
+  <form>
+     <input type="text" name="user" onblur="farway()">
+  </form>
+</body>
+</html>

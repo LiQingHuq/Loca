@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>好友菜单</title>
+
+<style type="text/css">
+  table ul{
+   list-style: none;
+   margin:0px;
+   display:none;
+   background-color:green;
+  }
+  
+   table{
+   borderpx:#8080ff 2px solid;
+   width: 200px;
+   }
+   table td{
+     border: #8080ff 2px solid;     
+   }
+   table td a:link,table td a:visited{
+   color:#8080ff 2px solid;
+   text-decoration: none;
+   background-color: fuchsia;
+   }
+   
+   table td a:HOVER{
+    color:yellow;
+   }
+   
+   .close{
+   display:none;
+   }
+   .open{
+    display:block;
+   }
+</style>
+</head>
+<body>
+<script type="text/javascript">
+function change(node){
+	var onode=node.parentNode;
+	var ulnode=onode.getElementsByTagName("ul")[0];
+	if(ulnode.className=="close"){
+		ulnode.className="open";
+	}
+	else
+		ulnode.className="close";
+}
+</script>
+ <table>
+    <tr>
+     <td >
+        <a href="javascript:void(0)" onclick="change(this)">一个好友</a>
+        <ul>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+           <li>好友一</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td>
+        <a href="javascript:void(0)" onclick="change(this)">一个好友</a>
+        <ul>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+           <li>好友二</li>
+        </ul>
+     </td>
+    </tr>
+    
+    
+    
+    <tr>
+     <td  >
+        <a href="javascript:void(0)" onclick="change(this)">一个好友</a>
+        <ul >
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+           <li>好友三</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td >
+        <a href="javascript:void(0)" onclick="change(this)">一个好友</a>
+        <ul>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+           <li>好友四</li>
+        </ul>
+     </td>
+    </tr>
+    
+     <tr>
+     <td  >
+        <a href="javascript:void(0)" onclick="change(this)">一个好友</a>
+        <ul>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+           <li>好友五</li>
+        </ul>
+     </td>
+    </tr>
+ </table>
+</body>
+</html>

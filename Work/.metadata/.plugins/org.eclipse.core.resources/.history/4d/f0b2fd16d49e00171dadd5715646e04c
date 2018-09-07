@@ -1,0 +1,13 @@
+package lei;
+
+public class Student {
+    String id;//类的属性
+    String name;
+    int age;
+    public void watch(){
+    	System.out.println(name+"再看java基础入门书籍");}
+    public  void love(){
+    		System.out.println(name+"爱李青华");
+    	}
+    }
+

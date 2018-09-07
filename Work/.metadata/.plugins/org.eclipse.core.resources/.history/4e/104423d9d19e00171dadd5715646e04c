@@ -1,0 +1,11 @@
+package lei;
+
+public class Me {
+  public static void main(String[] args) {
+   Student stu1=new Student();
+   stu1.id="201612052474";
+   stu1.age=21;
+   stu1.name="ÀîÇà»ª";
+   stu1.watch();
+}
+}

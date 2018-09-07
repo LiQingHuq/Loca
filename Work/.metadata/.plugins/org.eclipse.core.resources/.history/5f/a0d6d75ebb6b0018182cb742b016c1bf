@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表单校验</title>
+</head>
+<body>
+
+<script type="text/javascript">
+ function farway(){
+	 var oNode=document.getElementsByName("user");
+	 var name=oNode.value;
+	 var ojNode=document.getElementById("jiaoyanuser");
+	 if(name=="sss"){
+		 ojNode.innerHTML="用户名可以用".fontcolor("green");
+	 }
+	 else
+		 ojNode.innerHTML="用户名不可以用".fontcolor("red");
+	 
+ }
+</script>
+  <form>
+     用户名称：<input type="text" name="user" onblur="farway()"><span id="jiaoyanuser"></span><br/>
+     用户密码：<input type="text" name="password" > 
+  </form>
+</body>
+</html>

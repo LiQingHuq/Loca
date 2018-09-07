@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表单的隐藏与显示</title>
+<link href="dom.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<script type="text/javascript">
+
+function listView(node){
+	//var onode=document.getElementsByTagName("dl")[index];
+	var onode=node.parentNode;
+	if(onode.className=="close")
+	{
+		onode.className="open";
+	}
+    else
+	{
+		onode.className="close";
+	}
+		
+}
+
+function listViewClose(node){
+	var onode=node.parentNode;
+	var anode=document.getElementsByTagName("dl");
+    for(var x=0;x<anode.length;x++){
+    	if(anode[x]==onode){
+    		if(onode.className=="close")
+    			onode.className="open";
+    		else
+    			onode.className="close";
+    	}
+    	else
+    		anode[x].className="close";
+    	
+    }
+    
+    
+}
+
+</script>
+
+<dl class="close">
+  <dt onclick="listView(this)">显示条目一</dt>
+  <dd>列表1</dd>
+  <dd>列表1</dd>
+  <dd>列表1</dd>
+  <dd>列表1</dd>
+  <dd>列表1</dd>
+  
+</dl>
+
+<dl class="close">
+  <dt onclick="listView(this)">显示条目二</dt>
+  <dd>列表2</dd>
+  <dd>列表2</dd>
+  <dd>列表2</dd>
+  <dd>列表2</dd>
+  <dd>列表2</dd>
+  
+</dl >
+
+<dl class="close">
+  <dt onclick="listView(this)">显示条目三</dt>
+  <dd>列表3</dd>
+  <dd>列表3</dd>
+  <dd>列表3</dd>
+  <dd>列表3</dd>
+  <dd>列表3</dd>
+</dl>
+
+<dl class="close">
+  <dt onclick="listView(this)">显示条目四</dt>
+  <dd>列表4</dd>
+  <dd>列表4</dd>
+  <dd>列表4</dd>
+  <dd>列表4</dd>
+  <dd>列表4</dd>
+  
+</dl>
+</body>
+</html>

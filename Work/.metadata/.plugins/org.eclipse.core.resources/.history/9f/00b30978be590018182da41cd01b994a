@@ -1,0 +1,9 @@
+package otherIO;
+
+public class File_SPilt {
+
+	public File_SPilt() {
+		// TODO 自动生成的构造函数存根
+	}
+
+}

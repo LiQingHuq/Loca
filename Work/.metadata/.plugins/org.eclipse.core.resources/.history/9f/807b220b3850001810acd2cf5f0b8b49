@@ -1,0 +1,42 @@
+package work5;
+
+public class user {
+
+	private String name;
+	private  int count=1;
+	private  boolean flag=true;
+	
+	//生产者
+	public void set (String name){
+		while(flag){
+			try {
+				wait();
+			} 
+			catch (InterruptedException e) {
+				// TODO 自动生成的 catch 块
+				e.printStackTrace();
+			}
+			this.name=name+count;
+			count++;
+			System.out.println(Thread.currentThread().getName()+"...生产了..."+this.name);
+			flag=true;		
+			notify();
+		}
+	}
+	//消费者
+    public void out(){
+	    while(!flag){
+		    try {
+				wait();
+			} 
+		    catch (InterruptedException e) {
+				// TODO 自动生成的 catch 块
+				e.printStackTrace();
+			}
+
+		    System.out.println(Thread.currentThread().getName()+"...sale..."+this.name);
+	        flag=false;
+	        notifyAll();
+	    }
+    }     
+}

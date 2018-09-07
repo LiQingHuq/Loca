@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.close{
+	overflow: hidden;
+}
+.open{
+	overflow:visible;
+}
+dl{
+	height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

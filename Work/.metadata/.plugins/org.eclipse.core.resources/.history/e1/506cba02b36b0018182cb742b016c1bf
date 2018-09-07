@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加删除附件</title>
+<style type="text/css">
+   table a:link,table a:visited{
+     color:blue;
+     text-decoration: none;
+   }
+  table a:HOVER {
+	color: green;
+}
+</style>
+</head>
+<body>
+<table id="all">
+    <tr>
+      <td><a href="javascript:void(0)" onclick="newfile()">添加附件</a></td>         
+    </tr>
+   <!-- 
+    <tr>
+           <td><input type="file"></td>
+      <td><a href="javascript:void(0)">删除附件</a></td>
+    </tr>
+     -->
+</table>
+<script type="text/javascript">
+     function newfile{
+    	 var oTabNode=document.getElementById("all");
+    	 
+    	 var oTrNode=oTabNode.insertRow();
+    	 
+    	  var oTdNode1=oTrNode.insertCell();
+    	  var oTdNode2=oTrNode.insertCell();
+    	   
+    	  oTdNode1.innerHTML="<input type='file'/>";
+    	  oTdNode2.innerHTML="<a href='javascript:void(0)' onclick='del_file(this)'>删除附件</a>";    	  
+     }
+     function del_file(node){
+    	 
+     }
+</script>
+</body>
+</html>

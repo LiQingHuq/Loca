@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>、
+
+<script type="text/javascript">
+   function getSum(){
+	   
+   }
+</script>
+<input type="checkbox"  name="all" onclick=""/>全选<br/>
+<input type="checkbox" name="first" value="5000"/>机械师:5000<br/>
+<input type="checkbox" name="first" value="69760"/>外星人:69760<br/>
+<input type="checkbox" name="first" value="5000"/>未来人类:5000<br/>
+<input type="checkbox" name="first" value="5020"/>微软:5020<br/>
+<input type="checkbox" name="first" value="5000"/>甲骨文:5000<br/>
+<input type="checkbox" name="first" value="5000"/>苹果:5000<br/>
+<input type="checkbox" name="first" value="50000"/>戴尔:50000<br/>
+<input type="checkbox" name="first" value="50000"/>暗夜精灵:50000<br/>
+<input type="checkbox" name="first" value="50040"/>弘基:50040<br/>
+<input type="checkbox" name="first" value="89400"/>华为:89400<br/>
+<input type="button" name="btn" value="总金额:" onclick="getSum()"/><span id="sp"></span>
+</body>
+</html>

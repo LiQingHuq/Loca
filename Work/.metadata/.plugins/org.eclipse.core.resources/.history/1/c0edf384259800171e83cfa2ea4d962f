@@ -1,0 +1,16 @@
+package first;
+
+public class Text_two {
+public static void main (String args[]){
+	int i=10;
+	for(;i<100;i++){
+		for(int t=1;t<i/2;t++)
+		
+		if(i%t==0)
+			System.out.println(i);
+		
+	}
+}
+
+}
+

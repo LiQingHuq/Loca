@@ -1,0 +1,30 @@
+package lei;
+
+public class Student {
+   private String id;//类的属性，一个属性俩个方法
+   private  String name;
+   private  int age;
+    public void watch(){
+    	System.out.println(name+"再看java基础入门书籍");}
+    public  void love(){
+    		System.out.println(name+"爱李青华");
+    	}
+    public void setId(String id){//传入变量
+    	this.id=id;//赋给公共的ID
+    }
+    public String getId(){
+    	return id;
+    }
+    public void setName(String name){
+    	this.name=name;
+    }
+    public String getName(){
+    	return name;
+    }
+    public void setAge(int age){
+    	this.age=age;
+    }
+    public int getAge(){
+    	return age;
+    
+   }

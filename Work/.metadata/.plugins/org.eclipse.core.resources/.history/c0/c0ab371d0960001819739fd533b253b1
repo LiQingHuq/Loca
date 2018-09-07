@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<frameset rows="30%,*" cols="30%,*">
+  
+       <frame src="left_dt.html" name="dt"/>    
+       <frame src="left_dd.html" name="dt"/>     
+       <frame src="right_top.html" name="dd"/>  
+                      
+</frameset>
+       
+
+          
+        
+<body>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>这是一个网页</h1>
+<script type="text/javascript" src="Js.js">
+    alert("hello world")
+  </script>
+</body>
+</html>

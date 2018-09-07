@@ -1,0 +1,9 @@
+package addmap;
+
+public class AddFor {
+
+	public AddFor() {
+		// TODO 自动生成的构造函数存根
+	}
+
+}

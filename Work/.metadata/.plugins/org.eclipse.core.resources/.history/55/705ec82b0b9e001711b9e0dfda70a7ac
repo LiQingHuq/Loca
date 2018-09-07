@@ -1,0 +1,83 @@
+package atm_1;
+
+import java.nio.charset.CharsetEncoder;
+import java.util.Scanner;
+
+public class ATM {
+	private static int password=666666;//正确密码进入atm需要密码验证三
+	private static boolean ismain=true;//主界面一直循环，
+	private static boolean ischeck=true;//密码界面一直循环。
+		private static int rmb=10000; 
+			
+		
+	
+	public static int enterWord(String str){ //用户输入
+		System.out.println(str);
+		Scanner sc=new Scanner(System.in);
+		return sc.nextInt();
+	}//控制台接受密码。
+	
+	
+	public static void check(){
+		int chance=3;//三次机会
+		while(ischeck)//循环表示，如果在三次机会内输入正确密码进入主界面
+		{
+          		int word=enterWord("please enter password:");
+          		if(word==password)
+          		{
+          			zmain();//输入正确
+          		}
+          		else{
+          			//输入错误
+          		chance--;
+          		System.out.println("你还有"+chance+"次机会");
+          		if(chance==0)
+          			ischeck=false;
+          			System.out.println("三次机会用完，请到柜台人工办理");
+          		}
+		}       
+	}
+	public static void chaXun() {
+		boolean ischaXun=true;
+		while(true){
+		System.out.println("账户余额为"+rmb+"");
+		System.out.println("是否继续查询");
+		System.out.println("1,conytinue");
+		System.out.println("2,return mian");
+		int is=enterWord("输你的选择");
+		switch (is) {
+		case 1:
+			System.out.println("账户余额为"+rmb+"");
+			break;
+		case 2:
+			ischaXun=false;
+			System.out.println("回到主界面");
+			break;
+		}
+		ischaXun=false;
+		}
+		
+	}
+	public static void zmain() {//密码正确，进入主界面
+		while(ismain){//用于死循环使界面一直出现，
+		System.out.println("1,查询余额");
+		System.out.println("2,取款");
+		System.out.println("3，退出");
+		int i=enterWord("输入你选择的数字");
+		switch (i){
+		case 1: 
+			chaXun();
+			break;
+		case 2: 
+			break;
+		case 3:
+			ischeck=false;
+		    ismain=false;
+		    System.out.println("欢迎使用，再见！！");
+			break;
+		}}
+	}
+public static void main(String[] args){
+                         check();
+}
+}
